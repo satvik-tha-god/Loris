@@ -1001,7 +1001,7 @@ class AddElement extends Component {
       // Error, question name is needed for the desired type. Set the element
       // error flag for the questionName with message. Set the hasError flag
       let temp = (this.state.error) ? this.state.error : {};
-      temp.questionName = 'Must specifiy name for database to save value into';
+      temp.questionName = 'Must specify name for database to save value into';
       this.setState({
         error: temp,
       });
